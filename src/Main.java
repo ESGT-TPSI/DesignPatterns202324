@@ -28,7 +28,8 @@ public class Main {
     	
     	// Ecrã 1
     	configurations.setTipoPagamento("VISA");
-       	configurations2.setTipoPagamento("STRIPE");
+       	configurations2.setTipoPagamento("XPTO");
+       	configurations3.setTipoPagamento("MBWAY");
       	
     	// Ecrã 1   
     	System.out.println(configurations.getTipoPagamento());
@@ -38,7 +39,7 @@ public class Main {
 
     	// Ecrã 3
     	System.out.println(configurations3.getTipoPagamento());
-    
+    /*
     	// asda
     	var pagamento2= new PaymentProviderFactory()
     			.createPaymentProviderComBaseNoSingleton();
@@ -47,6 +48,6 @@ public class Main {
     	var pagamento3= new PaymentProviderFactory()
     			.createPaymentProviderComBaseNoSingleton();
     	pagamento3.processPayment(5300);
-    
+    */
     }
 }

@@ -5,8 +5,6 @@ public class Configuration {
     
     private String tipoPagamento;
     
-    // Construtor privado para evitar instanciação direta
-    public Configuration() {}
     
     // Método público para obter a instância única da classe
     public static Configuration getInstance() {
@@ -22,6 +20,6 @@ public class Configuration {
     }
     
     public String getTipoPagamento() {
-        return  this.getInstance().tipoPagamento;
+        return this.getInstance().tipoPagamento;
     }
 }
